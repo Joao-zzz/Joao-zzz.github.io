@@ -1,0 +1,297 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Portfólio profissional de João, desenvolvedor em formação.">
+
+    <title>João | Desenvolvedor Full Stack</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+    <!-- MENU -->
+    <header>
+        <nav class="navbar container">
+
+            <a href="#inicio" class="logo">
+                joao<span>.</span>dev
+            </a>
+
+            <button class="menu-toggle" id="menu-toggle"
+                aria-label="Abrir menu" aria-expanded="false">
+                <i data-lucide="menu"></i>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- CAPA / APRESENTAÇÃO -->
+        <section class="hero container" id="inicio">
+
+            <div class="hero-content">
+
+                <span class="status">
+                    <span class="status-dot"></span>
+                    Disponível para oportunidades
+                </span>
+
+                <p class="greeting">Olá, eu sou João 👋</p>
+
+                <h1>
+                    Desenvolvedor
+                    <span>Full Stack</span>
+                    em formação.
+                </h1>
+
+                <p class="hero-description">
+                    Transformando ideias em experiências digitais.
+                    Apaixonado por programação, desenvolvimento web
+                    e inteligência artificial.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projetos" class="btn btn-primary">
+                        Ver meus projetos
+                        <i data-lucide="arrow-up-right"></i>
+                    </a>
+
+                    <a href="#contato" class="btn btn-outline">
+                        Entre em contato
+                    </a>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/Joao-zzz"
+                       target="_blank" rel="noopener noreferrer">
+                        <i data-lucide="github"></i> GitHub
+                    </a>
+
+                    <a href="https://www.linkedin.com/"
+                       target="_blank" rel="noopener noreferrer">
+                        <i data-lucide="linkedin"></i> LinkedIn
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="hero-visual">
+                <div class="code-card">
+                    <div class="code-header">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <p>developer.js</p>
+                    </div>
+
+                    <div class="code-content">
+                        <p><span class="purple">const</span> developer = {</p>
+                        <p class="indent">nome: <span class="green">"João"</span>,</p>
+                        <p class="indent">area: <span class="green">"Full Stack"</span>,</p>
+                        <p class="indent">skills: [</p>
+                        <p class="indent2"><span class="orange">"HTML"</span>,</p>
+                        <p class="indent2"><span class="orange">"CSS"</span>,</p>
+                        <p class="indent2"><span class="orange">"JavaScript"</span>,</p>
+                        <p class="indent2"><span class="orange">"React"</span></p>
+                        <p class="indent">],</p>
+                        <p class="indent">objetivo: <span class="green">"Criar soluções"</span></p>
+                        <p>};</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- SOBRE -->
+        <section class="section container" id="sobre">
+
+            <span class="section-tag">01 / SOBRE MIM</span>
+
+            <h2>Conheça um pouco <span>sobre mim.</span></h2>
+
+            <p class="section-description">
+                Tenho 18 anos, concluí recentemente o Ensino Médio
+                e atualmente estudo programação em um curso
+                técnico/profissionalizante.
+
+                Desenvolvo projetos independentes e busco minha
+                primeira oportunidade profissional na tecnologia.
+            </p>
+
+        </section>
+
+        <!-- HABILIDADES -->
+        <section class="section container" id="habilidades">
+
+            <span class="section-tag">02 / TECNOLOGIAS</span>
+
+            <h2>Minhas <span>habilidades.</span></h2>
+
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <i data-lucide="code"></i>
+                    <h3>HTML5</h3>
+                    <p>Estrutura web</p>
+                </div>
+
+                <div class="skill-card">
+                    <i data-lucide="palette"></i>
+                    <h3>CSS3</h3>
+                    <p>Estilização e responsividade</p>
+                </div>
+
+                <div class="skill-card">
+                    <i data-lucide="braces"></i>
+                    <h3>JavaScript</h3>
+                    <p>Interatividade</p>
+                </div>
+
+                <div class="skill-card">
+                    <i data-lucide="atom"></i>
+                    <h3>React</h3>
+                    <p>Interfaces e componentes</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- PROJETOS -->
+        <section class="section container" id="projetos">
+
+            <span class="section-tag">03 / PORTFÓLIO</span>
+
+            <h2>Projetos <span>em destaque.</span></h2>
+
+            <div class="projects-grid">
+
+                <article class="project-card">
+                    <div class="project-icon weather">
+                        <i data-lucide="cloud-sun"></i>
+                    </div>
+
+                    <div class="project-info">
+                        <span>PROJETO 01</span>
+                        <h3>Clima Tech</h3>
+                        <p>
+                            Aplicação de previsão do tempo,
+                            com pesquisa de localidades e
+                            informações climáticas.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>JavaScript</span>
+                            <span>CSS</span>
+                        </div>
+
+                        <a href="https://github.com/Joao-zzz"
+                           target="_blank" rel="noopener noreferrer">
+                            Ver projeto <i data-lucide="arrow-up-right"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-icon gamer">
+                        <i data-lucide="gamepad-2"></i>
+                    </div>
+
+                    <div class="project-info">
+                        <span>PROJETO 02</span>
+                        <h3>Skull Header</h3>
+                        <p>
+                            Loja virtual gamer desenvolvida
+                            para apresentar produtos e criar
+                            uma experiência de compra.
+                        </p>
+
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>JavaScript</span>
+                            <span>CSS</span>
+                        </div>
+
+                        <a href="https://github.com/Joao-zzz"
+                           target="_blank" rel="noopener noreferrer">
+                            Ver projeto <i data-lucide="arrow-up-right"></i>
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- INTERESSES -->
+        <section class="section container">
+
+            <span class="section-tag">04 / OBJETIVOS</span>
+
+            <h2>Áreas de <span>interesse.</span></h2>
+
+            <div class="interests">
+                <span>Front-end</span>
+                <span>Back-end</span>
+                <span>Full Stack</span>
+                <span>Inteligência Artificial</span>
+                <span>Desenvolvimento Web</span>
+            </div>
+
+        </section>
+
+        <!-- CONTATO -->
+        <section class="section container contact" id="contato">
+
+            <span class="section-tag">05 / CONTATO</span>
+
+            <h2>Vamos construir algo <span>juntos?</span></h2>
+
+            <p>
+                Estou em busca de oportunidades para aprender,
+                crescer e contribuir com projetos de tecnologia.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="https://github.com/Joao-zzz"
+                   class="btn btn-primary"
+                   target="_blank" rel="noopener noreferrer">
+                    <i data-lucide="github"></i> GitHub
+                </a>
+
+                <a href="https://www.linkedin.com/"
+                   class="btn btn-outline"
+                   target="_blank" rel="noopener noreferrer">
+                    <i data-lucide="linkedin"></i> LinkedIn
+                </a>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© <span id="year"></span> João. Desenvolvido com HTML, CSS e JavaScript.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</body>
+</html>
